@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43A31993F7CAE02B2D660F8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */; };
 		43C7345B29775A8EB6907185 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */; };
+		48A15EA0216CE9DD003B1057 /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A15E9F216CE9DD003B1057 /* AdditionViewController.swift */; };
 		85168F0A88A2091C7DA592DD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA4591A3FAEA9EEDA9BE0A /* CoreText.framework */; };
 		A3D96AAF309ABE35EAB980FF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC346D7ABF9E7F3B57603EF /* CoreTelephony.framework */; };
 		D0144B1687A9C2067239E181 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E3856FBD4CB471266E6112 /* SystemConfiguration.framework */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		1FD338CA72BC89084DCCA2C3 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		22E3856FBD4CB471266E6112 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		48A15E9F216CE9DD003B1057 /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
 		5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5EC346D7ABF9E7F3B57603EF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		D1B6239B1BC459AA006E4B0E /* TimeTable */ = {
 			isa = PBXGroup;
 			children = (
+				48A15E9F216CE9DD003B1057 /* AdditionViewController.swift */,
 				D1B6239C1BC459AA006E4B0E /* AppDelegate.swift */,
 				D1B6239E1BC459AA006E4B0E /* ViewController.swift */,
 				D1B623A01BC459AA006E4B0E /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			files = (
 				D1B6239F1BC459AA006E4B0E /* ViewController.swift in Sources */,
 				D1B623BD1BC46336006E4B0E /* TimeTable.swift in Sources */,
+				48A15EA0216CE9DD003B1057 /* AdditionViewController.swift in Sources */,
 				D1B6239D1BC459AA006E4B0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

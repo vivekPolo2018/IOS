@@ -20,4 +20,8 @@ class TimeTable {
         
         return ans
     }
+    
+    func addition (_ a: Int, b: Int) -> Int {
+        return a+b;
+    }
 }
